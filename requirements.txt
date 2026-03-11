@@ -1,0 +1,6 @@
+# Comandos originais de instalação utilizados (devido a problemas associados ao MSYS2):
+# C:\Users\umape\AppData\Local\Programs\Python\Python313\python.exe -m pip install mediapipe
+# C:\Users\umape\AppData\Local\Programs\Python\Python313\python.exe -m pip install opencv-python
+
+opencv-python
+mediapipe
