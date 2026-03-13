@@ -9,7 +9,7 @@
 
 ## Task from [CortechX](https://www.linkedin.com/company/cortechx.ufpb)
 
-Esse foi um projeto desenvolvido por um discentes= do curso de *Engenharia da Computação da Universidade Federal da Paraíba*, curso este que pertence ao *[Centro de Informática](http://ci.ufpb.br/)*, localizado na *[Rua dos Escoteiros S/N - Mangabeira - João Pessoa - Paraíba - Brasil](https://g.co/kgs/xobLzCE)*. O projeto, no entanto, não é vinculado a uma disciplina do curso. Este pequeno projeto faz parte de uma task associada à Liga Acadêmica de Interação Humano-Computador, [CortechX](https://www.linkedin.com/company/cortechx.ufpb).
+Esse foi um projeto desenvolvido por um discente do curso de *Engenharia da Computação da Universidade Federal da Paraíba*, curso este que pertence ao *[Centro de Informática](http://ci.ufpb.br/)*, localizado na *[Rua dos Escoteiros S/N - Mangabeira - João Pessoa - Paraíba - Brasil](https://g.co/kgs/xobLzCE)*. O projeto, no entanto, não é vinculado a uma disciplina do curso. Este pequeno projeto faz parte de uma task associada à Liga Acadêmica de Interação Humano-Computador, [CortechX](https://www.linkedin.com/company/cortechx.ufpb).
 
 ### :video_game: Autor:
 
