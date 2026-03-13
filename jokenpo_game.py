@@ -3,6 +3,7 @@ import mediapipe as mp
 import time
 import os
 import sys
+import gesture_utils
 
 def access_webcam():
     model_path = "hand_landmarker.task"
@@ -70,7 +71,13 @@ def access_webcam():
                         pt2 = points[connection[1]]
                         cv2.line(frame, pt1, pt2, connection_color, 2)
 
-            cv2.imshow("Hand Tracking - Tasks API", frame)
+                    fingers = gesture_utils.count_fingers(hand_landmarks)
+                    player_gesture = gesture_utils.map_gesture(fingers)
+
+                    cv2.putText(frame, f"Gesture: {player_gesture}", (10, 40), 
+                        cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0), 2, cv2.LINE_AA)
+
+            cv2.imshow("Hand Tracking - Gesture Recognition", frame)
 
             if cv2.waitKey(1) & 0xFF == ord("q"):
                 break
