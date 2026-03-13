@@ -27,3 +27,17 @@ def map_gesture(fingers):
         return "Paper"
     else:
         return "Invalid"
+    
+def computer_move():
+    return random.choice(["Rock", "Paper", "Scissors"])
+
+
+def decide_winner(player, computer):
+    if player == computer:
+        return "Draw"
+    elif (player == "Rock" and computer == "Scissors") or \
+         (player == "Scissors" and computer == "Paper") or \
+         (player == "Paper" and computer == "Rock"):
+        return "Player"
+    else:
+        return "Computer"
