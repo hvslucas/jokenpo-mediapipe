@@ -9,8 +9,12 @@ def count_fingers(hand_landmarks):
             raised_fingers += 1
 
     # thumb
-    if hand_landmarks[4].x < hand_landmarks[3].x:
-        raised_fingers += 1
+    if hand_landmarks[5].x < hand_landmarks[17].x:
+        if hand_landmarks[4].x < hand_landmarks[3].x:
+            raised_fingers += 1
+    else:
+        if hand_landmarks[4].x > hand_landmarks[3].x:
+            raised_fingers += 1
 
     return raised_fingers
 
